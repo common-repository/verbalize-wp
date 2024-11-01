@@ -1,0 +1,50 @@
+.aud-text-wrap th, .aud-text-wrap td, .aud-text-wrap tr {
+	padding: 15px 10px;
+    width: 20%;
+}
+.aud-text-wrap td:nth-child(2) {
+    width: 35%;
+}
+.aud-text-wrap td:nth-child(4) input{
+    width: 80%;
+}
+#audio-form td span {
+	display: block;
+}
+.aud-text-wrap .container {
+	max-width: 100%;
+	padding: 0;
+}
+.aud-text-wrap tr {
+	border-bottom: 1px solid #ddd;
+}
+.aud-text-wrap table {
+	margin-top: 0 !important;
+}
+.aud-text-wrap th {
+	border-right: 1px solid #ddd;
+}
+input.height_btn, input.width_btn, input.text_width_btn, input.text_height_btn {
+    width: 80px;
+}
+span.err-txt {
+    color: red;
+}
+button.remove_row.btn.button.btn-close {
+    background-color: red;
+    border: 1px solid #ffff;
+    color: #fff;
+    border-radius: 5px;
+    text-align: left;
+    float: right;
+}
+.show-aud:after, .show-txt:after {
+	content: attr(title);
+    display: inline-block;
+    position: absolute;
+    background-color: black;
+    color: #fff;
+    padding: 1px 5px;
+    margin-left: 15px;
+    font-size: 12px;
+}
